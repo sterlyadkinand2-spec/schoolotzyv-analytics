@@ -1,0 +1,14 @@
+{
+  "fixture_only": true,
+  "snapshot": {
+    "id": 900000,
+    "city_id": 530,
+    "type": "school_building",
+    "parent": {"id": 900003, "type": "cluster", "city_id": 530},
+    "urls": ["/fixture-only-not-a-real-card"],
+    "fields": {"address": "Существующий адрес", "programs": null},
+    "writable_fields": ["address", "programs"]
+  },
+  "sources": ["fixture://official"],
+  "candidates": [{"field": "programs", "value": "Тестовая программа", "evidence": {"url": "fixture://official", "quote": "Тестовая программа", "retrieved_at": "2026-10-30"}}]
+}
